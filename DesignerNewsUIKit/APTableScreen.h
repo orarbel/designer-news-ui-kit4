@@ -9,60 +9,24 @@
 #import <UIKit/UIKit.h>
 #import "ANViewController.h"
 #import "ANLabel.h"
+#import "ANDataList.h"
+#import "APCell07d33f543b1c41898619f87c5a670bf3.h"
+#import "APCellcc3a6e068982480f97cfd73033772423.h"
+#import "APCellfa0a28b4604742e580ef63da1bd06f98.h"
+#import "APCell88c47e82b3f64af98f3febce294af040.h"
+#import "APCellbe9fc25fadca4966884bd8d35aee6737.h"
+#import "APCelld672badec4c342e59720087e274a7a8a.h"
+#import "APCelld2e7f7a96aeb451e9cb122290dd83d5c.h"
+#import "APCell840c8d2ad4054d489227dfa50c632089.h"
 
-@interface APTableScreen : ANViewController
+@interface APTableScreen : ANViewController <UITableViewDataSource, UITableViewDelegate> 
 
 @property (weak, nonatomic, nullable) IBOutlet UIView *rectangle;
 @property (weak, nonatomic, nullable) IBOutlet UIView *header;
 @property (weak, nonatomic, nullable) IBOutlet UIView *headerRectangle4;
 @property (weak, nonatomic, nullable) IBOutlet UILabel *headerLabelDesignerNews;
 @property (weak, nonatomic, nullable) IBOutlet UIImageView *header4CRC3rLF;
-@property (weak, nonatomic, nullable) IBOutlet UIView *table;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroupCombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroupLabelHowDoYouHandoffYourAnimationToDevelopers;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroupLabel4;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroupLabel5CommentsFromAdiDidiInbar;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroupTriangle2;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup2;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup2CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup2LabelShouldYouLearnWebDesignAndIfSoWhereToStart;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup2Label3;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup2Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup2Label1CommentFromGergoBekes;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup3;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup3CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup3Label9;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup3Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup3LabelAskDnWhatIsYourBlogSetUpWith;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup3Label12CommentsFromConnorNorvell;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup4;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup4CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup4Label3;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup4Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup4LabelSiteDesignIntercomBlogYourProductIsAlreadyObsolete;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup4Label0CommentsFromGeoffreyKeating;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup5;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup5CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup5Label19;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup5Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup5LabelShouldDesignersHaveAPortfolioSite;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup5Label30CommentsFromSethRichardson;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup6;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup6CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup6Label6;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup6Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup6LabelTop50FontsOf2016;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup6Label3CommentsFromSliceBerry;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup7;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup7CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup7Label29;
-@property (weak, nonatomic, nullable) IBOutlet UIImageView *tableGroup7Triangle2;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup7LabelAWorldWithoutTheMacPro;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup7Label21CommentsFromAaronLloydWhitmore;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup8;
-@property (weak, nonatomic, nullable) IBOutlet UIView *tableGroup8CombinedShape;
-@property (weak, nonatomic, nullable) IBOutlet UILabel *tableGroup8LabelWorkWithStripe;
+@property (weak, nonatomic, nullable) IBOutlet UITableView *table;
 
 
 
