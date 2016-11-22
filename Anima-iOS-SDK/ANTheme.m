@@ -7,10 +7,46 @@
 //
 
 #import "ANTheme.h"
+@import CoreText;
 
 static ANTheme *currentTheme;
 
 @implementation ANTheme
+
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self loadCustomFonts];
+    });
+}
+
++ (void)loadCustomFonts {
+    NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
+    NSString *resourcePath = [frameworkBundle resourcePath];
+    NSArray *dirFiles = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:resourcePath error:nil];
+    NSArray *fontFiles = [dirFiles filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"self ENDSWITH '.ttf' OR self ENDSWITH '.otf'"]];
+    [fontFiles enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self loadFontWithName:[resourcePath stringByAppendingPathComponent:obj]];
+    }];
+}
+
++ (void)loadFontWithName:(NSString *)fontPath {
+    NSData *fontData = [NSData dataWithContentsOfFile:fontPath];
+    CGDataProviderRef provider = CGDataProviderCreateWithCFData((CFDataRef)fontData);
+    if (provider) {
+        CGFontRef font = CGFontCreateWithDataProvider(provider);
+        if (font) {
+            CFErrorRef error = NULL;
+            if (CTFontManagerRegisterGraphicsFont(font, &error) == NO) {
+                CFStringRef errorDescription = CFErrorCopyDescription(error);
+                NSLog(@"Failed to load font: %@", errorDescription);
+                CFRelease(errorDescription);
+            }
+            CFRelease(font);
+        }
+        CFRelease(provider);
+    }
+}
 
 + (ANTheme *)currentTheme {
     return currentTheme;
