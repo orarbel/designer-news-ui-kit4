@@ -28,42 +28,42 @@
     if (tableView == self.table) {
         switch (indexPath.row) {
             case 0: {
-                APCelld826d1e970f14adb8876e39e6212150c *cell = [tableView dequeueReusableCellWithIdentifier:@"Celld826d1e970f14adb8876e39e6212150c"];
+                APCella246bd3a331a4d149241271dfe67f108 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cella246bd3a331a4d149241271dfe67f108"];
                 cell.delegate = self;
                 return cell;
              }
             case 1: {
-                APCell260f42e98582441087b46d8fe96fd979 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell260f42e98582441087b46d8fe96fd979"];
+                APCellbf0397a61b824c0ba3c4d069f80ebeef *cell = [tableView dequeueReusableCellWithIdentifier:@"Cellbf0397a61b824c0ba3c4d069f80ebeef"];
                 cell.delegate = self;
                 return cell;
              }
             case 2: {
-                APCell7f8969d9425343e4b3dae3ecf1a1840a *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell7f8969d9425343e4b3dae3ecf1a1840a"];
+                APCell65079a0b32464394bf3e0d631ba45c5e *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell65079a0b32464394bf3e0d631ba45c5e"];
                 cell.delegate = self;
                 return cell;
              }
             case 3: {
-                APCell9c67076f357948fa9f992a8a139d80a1 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell9c67076f357948fa9f992a8a139d80a1"];
+                APCell6e63c7b449054f419ad9016a89ba0e21 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell6e63c7b449054f419ad9016a89ba0e21"];
                 cell.delegate = self;
                 return cell;
              }
             case 4: {
-                APCelle92b96efd2c348dc911a3ef4f324c658 *cell = [tableView dequeueReusableCellWithIdentifier:@"Celle92b96efd2c348dc911a3ef4f324c658"];
+                APCellf7679d6133a34c928cae7534c407cd54 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cellf7679d6133a34c928cae7534c407cd54"];
                 cell.delegate = self;
                 return cell;
              }
             case 5: {
-                APCellbf53b443818a4df38066b4b6045b6536 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cellbf53b443818a4df38066b4b6045b6536"];
+                APCell11cdf4f86551419483bb00682c8295d4 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell11cdf4f86551419483bb00682c8295d4"];
                 cell.delegate = self;
                 return cell;
              }
             case 6: {
-                APCell3c51cad105f74911a78d5ecd1c2fe014 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell3c51cad105f74911a78d5ecd1c2fe014"];
+                APCell7aa71feaede04a629fafbcab350d3dd5 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell7aa71feaede04a629fafbcab350d3dd5"];
                 cell.delegate = self;
                 return cell;
              }
             case 7: {
-                APCell9b7b14d9d9334523976ae164fa07df01 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell9b7b14d9d9334523976ae164fa07df01"];
+                APCelld4775d769ca342b8aa0a301806b98f61 *cell = [tableView dequeueReusableCellWithIdentifier:@"Celld4775d769ca342b8aa0a301806b98f61"];
                 cell.delegate = self;
                 return cell;
              }
