@@ -2,7 +2,7 @@
 //  APTableScreen.m
 //  DesignerNews
 //
-//  Created by orarbel@gmail.com on 22/11/2016, using AnimaApp.com, under MIT license.
+//  Created by orarbel@gmail.com on 23/11/2016, using AnimaApp.com, under MIT license.
 //  Copyright © 2016 Company Name. All rights reserved.
 //
 
@@ -28,42 +28,42 @@
     if (tableView == self.table) {
         switch (indexPath.row) {
             case 0: {
-                APCelld3d2d7d446b6481cb29a1ff73ab9a5cd *cell = [tableView dequeueReusableCellWithIdentifier:@"Celld3d2d7d446b6481cb29a1ff73ab9a5cd"];
+                APCelld826d1e970f14adb8876e39e6212150c *cell = [tableView dequeueReusableCellWithIdentifier:@"Celld826d1e970f14adb8876e39e6212150c"];
                 cell.delegate = self;
                 return cell;
              }
             case 1: {
-                APCell498690fea04c4dd38e1967dc5828251c *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell498690fea04c4dd38e1967dc5828251c"];
+                APCell260f42e98582441087b46d8fe96fd979 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell260f42e98582441087b46d8fe96fd979"];
                 cell.delegate = self;
                 return cell;
              }
             case 2: {
-                APCell74ad16c4518441faaee3ea278cd752b6 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell74ad16c4518441faaee3ea278cd752b6"];
+                APCell7f8969d9425343e4b3dae3ecf1a1840a *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell7f8969d9425343e4b3dae3ecf1a1840a"];
                 cell.delegate = self;
                 return cell;
              }
             case 3: {
-                APCell3af165b2dd14414dac7074e37dcee20a *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell3af165b2dd14414dac7074e37dcee20a"];
+                APCell9c67076f357948fa9f992a8a139d80a1 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell9c67076f357948fa9f992a8a139d80a1"];
                 cell.delegate = self;
                 return cell;
              }
             case 4: {
-                APCell5cfedc9e2bbb4847b162c19553dd1578 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell5cfedc9e2bbb4847b162c19553dd1578"];
+                APCelle92b96efd2c348dc911a3ef4f324c658 *cell = [tableView dequeueReusableCellWithIdentifier:@"Celle92b96efd2c348dc911a3ef4f324c658"];
                 cell.delegate = self;
                 return cell;
              }
             case 5: {
-                APCell0774aef30bce40c4a3b7c95041f3c0e4 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell0774aef30bce40c4a3b7c95041f3c0e4"];
+                APCellbf53b443818a4df38066b4b6045b6536 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cellbf53b443818a4df38066b4b6045b6536"];
                 cell.delegate = self;
                 return cell;
              }
             case 6: {
-                APCell43a4a4beed9f471b9274902fe69c44e5 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell43a4a4beed9f471b9274902fe69c44e5"];
+                APCell3c51cad105f74911a78d5ecd1c2fe014 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell3c51cad105f74911a78d5ecd1c2fe014"];
                 cell.delegate = self;
                 return cell;
              }
             case 7: {
-                APCelld93f251b6bd54ec8acfdfd5def83e62f *cell = [tableView dequeueReusableCellWithIdentifier:@"Celld93f251b6bd54ec8acfdfd5def83e62f"];
+                APCell9b7b14d9d9334523976ae164fa07df01 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell9b7b14d9d9334523976ae164fa07df01"];
                 cell.delegate = self;
                 return cell;
              }
