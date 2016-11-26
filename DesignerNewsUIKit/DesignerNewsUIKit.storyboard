@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="screen-3f3640f7-6d4f-494a-9306-493dda777057-VC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-VC">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
 <!--Table Screen-->
-        <scene sceneID="screen-3f3640f7-6d4f-494a-9306-493dda777057-Scene">
+        <scene sceneID="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Scene">
             <objects>
-                <viewController restorationIdentifier="tableScreen" storyboardIdentifier="tableScreen" id="screen-3f3640f7-6d4f-494a-9306-493dda777057-VC" userLabel="Table Screen" sceneMemberID="viewController" customClass="APTableScreen" >
+                <viewController restorationIdentifier="tableScreen" storyboardIdentifier="tableScreen" id="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-VC" userLabel="Table Screen" sceneMemberID="viewController" customClass="APTableScreen" >
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="screen-3f3640f7-6d4f-494a-9306-493dda777057-Top"/>
-                        <viewControllerLayoutGuide type="bottom" id="screen-3f3640f7-6d4f-494a-9306-493dda777057-Bottom"/>
+                        <viewControllerLayoutGuide type="top" id="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Bottom"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="screen-3f3640f7-6d4f-494a-9306-493dda777057" >
+                    <view key="view" contentMode="scaleToFill" id="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" >
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" userLabel="Rectangle"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-9008a8ab-0d43-459e-a484-c5efcfef797a" userLabel="Rectangle"  >
         <rect key="frame" x="0" y="0" width="375" height="667"/>
         <color key="backgroundColor" red="0.913717" green="0.906795" blue="0.906795" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -27,14 +27,14 @@
         <constraints>
         </constraints>
     </view>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" userLabel="Header"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" userLabel="Header"  >
         <rect key="frame" x="-1" y="-1" width="377" height="83"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-d35bbd59-e652-411a-9dbb-031b8073152f" userLabel="Rectangle 4"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-93835ad2-9852-4771-aabc-a158da9410e8" userLabel="Rectangle 4"  >
         <rect key="frame" x="1" y="1" width="375" height="81"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -43,7 +43,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" userLabel="Label: Trust me I’m a designer"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" userLabel="Label: Trust me I’m a designer"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">Trust me I’m a designer</string>
         <rect key="frame" x="101" y="31" width="242.7" height="24"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -66,7 +66,7 @@
         <constraints>
         </constraints>
     </label>
-    <imageView image="table screen 4crc3rlf" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-458a86d6-36a3-4fe3-b07e-9781790561a1" userLabel="4CRC3rLF"   >
+    <imageView image="table screen 4crc3rlf" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" userLabel="4CRC3rLF"   >
         <rect key="frame" x="44" y="20" width="43" height="43"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -77,21 +77,21 @@
     </imageView>
         </subviews>
         <constraints>
-            <constraint firstItem="View-d35bbd59-e652-411a-9dbb-031b8073152f" firstAttribute="width" constant="375" priority="971" id="View-d35bbd59-e652-411a-9dbb-031b8073152f-width" userLabel="Rectangle 4-width"/>
-            <constraint firstItem="View-d35bbd59-e652-411a-9dbb-031b8073152f" firstAttribute="height" constant="81" priority="972" id="View-d35bbd59-e652-411a-9dbb-031b8073152f-height" userLabel="Rectangle 4-height"/>
-            <constraint secondAttribute="top" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="View-d35bbd59-e652-411a-9dbb-031b8073152f" firstAttribute="top" constant="1" priority="973" id="View-d35bbd59-e652-411a-9dbb-031b8073152f-top" userLabel="Rectangle 4-top"/>
-            <constraint secondAttribute="left" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="View-d35bbd59-e652-411a-9dbb-031b8073152f" firstAttribute="left" constant="1" priority="974" id="View-d35bbd59-e652-411a-9dbb-031b8073152f-left" userLabel="Rectangle 4-left"/>
-            <constraint firstItem="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" firstAttribute="width" constant="242.7" priority="971" id="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1-width" userLabel="Label: Trust me I’m a designer-width"/>
-            <constraint firstItem="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" firstAttribute="height" constant="24" priority="972" id="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1-height" userLabel="Label: Trust me I’m a designer-height"/>
-            <constraint secondAttribute="top" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" firstAttribute="top" constant="31" priority="973" id="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1-top" userLabel="Label: Trust me I’m a designer-top"/>
-            <constraint secondAttribute="left" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" firstAttribute="left" constant="101" priority="974" id="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1-left" userLabel="Label: Trust me I’m a designer-left"/>
-            <constraint firstItem="image-458a86d6-36a3-4fe3-b07e-9781790561a1" firstAttribute="width" constant="43" priority="971" id="image-458a86d6-36a3-4fe3-b07e-9781790561a1-width" userLabel="4CRC3rLF-width"/>
-            <constraint firstItem="image-458a86d6-36a3-4fe3-b07e-9781790561a1" firstAttribute="height" constant="43" priority="972" id="image-458a86d6-36a3-4fe3-b07e-9781790561a1-height" userLabel="4CRC3rLF-height"/>
-            <constraint secondAttribute="top" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="image-458a86d6-36a3-4fe3-b07e-9781790561a1" firstAttribute="top" constant="20" priority="973" id="image-458a86d6-36a3-4fe3-b07e-9781790561a1-top" userLabel="4CRC3rLF-top"/>
-            <constraint secondAttribute="left" secondItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstItem="image-458a86d6-36a3-4fe3-b07e-9781790561a1" firstAttribute="left" constant="44" priority="974" id="image-458a86d6-36a3-4fe3-b07e-9781790561a1-left" userLabel="4CRC3rLF-left"/>
+            <constraint firstItem="View-93835ad2-9852-4771-aabc-a158da9410e8" firstAttribute="width" constant="375" priority="971" id="View-93835ad2-9852-4771-aabc-a158da9410e8-width" userLabel="Rectangle 4-width"/>
+            <constraint firstItem="View-93835ad2-9852-4771-aabc-a158da9410e8" firstAttribute="height" constant="81" priority="972" id="View-93835ad2-9852-4771-aabc-a158da9410e8-height" userLabel="Rectangle 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="View-93835ad2-9852-4771-aabc-a158da9410e8" firstAttribute="top" constant="1" priority="973" id="View-93835ad2-9852-4771-aabc-a158da9410e8-top" userLabel="Rectangle 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="View-93835ad2-9852-4771-aabc-a158da9410e8" firstAttribute="left" constant="1" priority="974" id="View-93835ad2-9852-4771-aabc-a158da9410e8-left" userLabel="Rectangle 4-left"/>
+            <constraint firstItem="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" firstAttribute="width" constant="242.7" priority="971" id="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a-width" userLabel="Label: Trust me I’m a designer-width"/>
+            <constraint firstItem="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" firstAttribute="height" constant="24" priority="972" id="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a-height" userLabel="Label: Trust me I’m a designer-height"/>
+            <constraint secondAttribute="top" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" firstAttribute="top" constant="31" priority="973" id="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a-top" userLabel="Label: Trust me I’m a designer-top"/>
+            <constraint secondAttribute="left" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" firstAttribute="left" constant="101" priority="974" id="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a-left" userLabel="Label: Trust me I’m a designer-left"/>
+            <constraint firstItem="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" firstAttribute="width" constant="43" priority="971" id="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3-width" userLabel="4CRC3rLF-width"/>
+            <constraint firstItem="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" firstAttribute="height" constant="43" priority="972" id="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3-height" userLabel="4CRC3rLF-height"/>
+            <constraint secondAttribute="top" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" firstAttribute="top" constant="20" priority="973" id="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3-top" userLabel="4CRC3rLF-top"/>
+            <constraint secondAttribute="left" secondItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstItem="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" firstAttribute="left" constant="44" priority="974" id="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3-left" userLabel="4CRC3rLF-left"/>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">האם מעצבים צריכים לדעת לתכנת?</string>
         <rect key="frame" x="23.755" y="130" width="332.49" height="19"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -116,18 +116,18 @@
     </label>
         </subviews>
         <constraints>
-            <constraint firstItem="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" firstAttribute="width" constant="375" priority="971" id="View-724b53ae-208e-43f7-95f7-17fe8db6ab85-width" userLabel="Rectangle-width"/>
-            <constraint firstItem="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" firstAttribute="height" constant="667" priority="972" id="View-724b53ae-208e-43f7-95f7-17fe8db6ab85-height" userLabel="Rectangle-height"/>
-            <constraint secondAttribute="top" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" firstAttribute="top" constant="0" priority="973" id="View-724b53ae-208e-43f7-95f7-17fe8db6ab85-top" userLabel="Rectangle-top"/>
-            <constraint secondAttribute="left" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" firstAttribute="left" constant="0" priority="974" id="View-724b53ae-208e-43f7-95f7-17fe8db6ab85-left" userLabel="Rectangle-left"/>
-            <constraint firstItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstAttribute="width" constant="377" priority="971" id="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25-width" userLabel="Header-width"/>
-            <constraint firstItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstAttribute="height" constant="83" priority="972" id="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25-height" userLabel="Header-height"/>
-            <constraint secondAttribute="top" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstAttribute="top" constant="-1" priority="973" id="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25-top" userLabel="Header-top"/>
-            <constraint secondAttribute="left" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" firstAttribute="left" constant="-1" priority="974" id="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25-left" userLabel="Header-left"/>
-            <constraint firstItem="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" firstAttribute="width" constant="332.49" priority="971" id="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3-width" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-width"/>
-            <constraint firstItem="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" firstAttribute="height" constant="19" priority="972" id="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3-height" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-height"/>
-            <constraint secondAttribute="top" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" firstAttribute="top" constant="130" priority="973" id="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3-top" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-top"/>
-            <constraint secondAttribute="left" secondItem="screen-3f3640f7-6d4f-494a-9306-493dda777057" firstItem="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" firstAttribute="left" constant="23.755" priority="974" id="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3-left" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-left"/>
+            <constraint firstItem="View-9008a8ab-0d43-459e-a484-c5efcfef797a" firstAttribute="width" constant="375" priority="971" id="View-9008a8ab-0d43-459e-a484-c5efcfef797a-width" userLabel="Rectangle-width"/>
+            <constraint firstItem="View-9008a8ab-0d43-459e-a484-c5efcfef797a" firstAttribute="height" constant="667" priority="972" id="View-9008a8ab-0d43-459e-a484-c5efcfef797a-height" userLabel="Rectangle-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="View-9008a8ab-0d43-459e-a484-c5efcfef797a" firstAttribute="top" constant="0" priority="973" id="View-9008a8ab-0d43-459e-a484-c5efcfef797a-top" userLabel="Rectangle-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="View-9008a8ab-0d43-459e-a484-c5efcfef797a" firstAttribute="left" constant="0" priority="974" id="View-9008a8ab-0d43-459e-a484-c5efcfef797a-left" userLabel="Rectangle-left"/>
+            <constraint firstItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstAttribute="width" constant="377" priority="971" id="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c-width" userLabel="Header-width"/>
+            <constraint firstItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstAttribute="height" constant="83" priority="972" id="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c-height" userLabel="Header-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstAttribute="top" constant="-1" priority="973" id="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c-top" userLabel="Header-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" firstAttribute="left" constant="-1" priority="974" id="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c-left" userLabel="Header-left"/>
+            <constraint firstItem="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" firstAttribute="width" constant="332.49" priority="971" id="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194-width" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-width"/>
+            <constraint firstItem="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" firstAttribute="height" constant="19" priority="972" id="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194-height" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-height"/>
+            <constraint secondAttribute="top" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" firstAttribute="top" constant="130" priority="973" id="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194-top" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-top"/>
+            <constraint secondAttribute="left" secondItem="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda" firstItem="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" firstAttribute="left" constant="23.755" priority="974" id="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194-left" userLabel="Label: האם מעצבים צריכים לדעת לתכנת?-left"/>
         </constraints>
                                 <connections>
                                 </connections>
@@ -140,33 +140,33 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
-                        <outlet property="rectangle" destination="View-724b53ae-208e-43f7-95f7-17fe8db6ab85" id="rectangle-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
-                        <outlet property="header" destination="View-bf1b95fb-aa1d-4791-b5b5-f3757ae4cd25" id="header-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
-                        <outlet property="headerRectangle4" destination="View-d35bbd59-e652-411a-9dbb-031b8073152f" id="headerRectangle4-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
-                        <outlet property="headerLabelTrustMeImADesigner" destination="Label-fe8d8d0c-e638-42aa-a6ba-9974c904ece1" id="headerLabelTrustMeImADesigner-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
-                        <outlet property="header4CRC3rLF" destination="image-458a86d6-36a3-4fe3-b07e-9781790561a1" id="header4CRC3rLF-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
-                        <outlet property="label" destination="Label-0fcd1f2f-d02a-4b1b-b5c7-8970933e90c3" id="label-screen-3f3640f7-6d4f-494a-9306-493dda777057-Prop"/>
+                        <outlet property="rectangle" destination="View-9008a8ab-0d43-459e-a484-c5efcfef797a" id="rectangle-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
+                        <outlet property="header" destination="View-031bc8a2-8eb8-4f55-8028-76cd522a6a4c" id="header-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
+                        <outlet property="headerRectangle4" destination="View-93835ad2-9852-4771-aabc-a158da9410e8" id="headerRectangle4-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
+                        <outlet property="headerLabelTrustMeImADesigner" destination="Label-d832d76f-b04b-45c2-8aac-29fc426b9e0a" id="headerLabelTrustMeImADesigner-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
+                        <outlet property="header4CRC3rLF" destination="image-ecdecdfc-abdd-4dc2-8fac-fd5231cd09b3" id="header4CRC3rLF-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
+                        <outlet property="label" destination="Label-53ea4a56-f5c7-46ac-a0b7-1a2014374194" id="label-screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-Prop"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-3f3640f7-6d4f-494a-9306-493dda777057-FR" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-c9f1f8cb-2a4d-4de2-9415-ebac78516fda-FR" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0" y="0"/>
         </scene>
     
 <!--Table Screen-->
-        <scene sceneID="screen-2425659d-19cf-4678-a1ae-2edac41edfca-Scene">
+        <scene sceneID="screen-381959f9-a256-4814-87bc-4ca1f25cc927-Scene">
             <objects>
-                <viewController restorationIdentifier="screen1" storyboardIdentifier="screen1" id="screen-2425659d-19cf-4678-a1ae-2edac41edfca-VC" userLabel="Table Screen" sceneMemberID="viewController" customClass="APScreen1" >
+                <viewController restorationIdentifier="screen1" storyboardIdentifier="screen1" id="screen-381959f9-a256-4814-87bc-4ca1f25cc927-VC" userLabel="Table Screen" sceneMemberID="viewController" customClass="APScreen1" >
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="screen-2425659d-19cf-4678-a1ae-2edac41edfca-Top"/>
-                        <viewControllerLayoutGuide type="bottom" id="screen-2425659d-19cf-4678-a1ae-2edac41edfca-Bottom"/>
+                        <viewControllerLayoutGuide type="top" id="screen-381959f9-a256-4814-87bc-4ca1f25cc927-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-381959f9-a256-4814-87bc-4ca1f25cc927-Bottom"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="screen-2425659d-19cf-4678-a1ae-2edac41edfca" >
+                    <view key="view" contentMode="scaleToFill" id="screen-381959f9-a256-4814-87bc-4ca1f25cc927" >
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" userLabel="Rectangle"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" userLabel="Rectangle"  >
         <rect key="frame" x="0" y="0" width="375" height="667"/>
         <color key="backgroundColor" red="0.913717" green="0.906795" blue="0.906795" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -175,37 +175,37 @@
         <constraints>
         </constraints>
     </view>
-    <tableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" userLabel="Table"   alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" pagingEnabled="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28">
+    <tableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Table-b4de6187-153f-4105-adef-41c0a6444af0" userLabel="Table"   alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" pagingEnabled="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28">
         <rect key="frame" x="21" y="95" width="333" height="572"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
-                                    <outlet property="dataSource" destination="screen-2425659d-19cf-4678-a1ae-2edac41edfca-VC" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-DataSource"/>
-                                    <outlet property="delegate" destination="screen-2425659d-19cf-4678-a1ae-2edac41edfca-VC" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-Delegate"/>
+                                    <outlet property="dataSource" destination="screen-381959f9-a256-4814-87bc-4ca1f25cc927-VC" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-DataSource"/>
+                                    <outlet property="delegate" destination="screen-381959f9-a256-4814-87bc-4ca1f25cc927-VC" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-Delegate"/>
                                 </connections>
         <color key="separatorColor" red="0.7843137" green="0.7803922" blue="0.8" alpha="1" colorSpace="calibratedRGB"/>
         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
         <constraints>
         </constraints>
         <prototypes>
-                     <tableViewCell rowHeight="77.5" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell7" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell7" >
+                     <tableViewCell rowHeight="77.5" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell7" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell7" >
                         <rect key="frame" x="0" y="0" width="333" height="77.5"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" userLabel="Cell ContentView"   tableViewCell="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Cell">
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" userLabel="Cell ContentView"   tableViewCell="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Cell">
         <rect key="frame" x="0" y="0" width="333" height="77.5"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                             <autoresizingMask key="autoresizingMask"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-9112235f-ff8f-4539-af84-43fc51fcf78c" userLabel="Cell"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-d1d173fe-7316-4780-bb60-d919e9b89f25" userLabel="Cell"  >
         <rect key="frame" x="0" y="0" width="333" height="77.5"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" userLabel="Combined Shape"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" userLabel="Combined Shape"  >
         <rect key="frame" x="1" y="1" width="331" height="71"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes>
@@ -218,7 +218,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" userLabel="Label: How do you handoff your animation to developers?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" userLabel="Label: How do you handoff your animation to developers?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">How do you handoff your animation to developers?</string>
         <rect key="frame" x="63" y="7" width="268" height="32"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -241,7 +241,7 @@
         <constraints>
         </constraints>
     </label>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" userLabel="Label: 4"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-cdff1817-aa90-48b8-8834-5be53f273624" userLabel="Label: 4"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">4</string>
         <rect key="frame" x="14" y="43" width="32" height="16"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -264,7 +264,7 @@
         <constraints>
         </constraints>
     </label>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" userLabel="Label: 5 comments • from Adi Didi Inbar"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" userLabel="Label: 5 comments • from Adi Didi Inbar"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">5 comments • from Adi Didi Inbar</string>
         <rect key="frame" x="63" y="54" width="268" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -287,7 +287,7 @@
         <constraints>
         </constraints>
     </label>
-    <imageView image="table screentriangle 2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" userLabel="Triangle 2"   >
+    <imageView image="table screentriangle 2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" userLabel="Triangle 2"   >
         <rect key="frame" x="18" y="21" width="24.00485" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -298,74 +298,74 @@
     </imageView>
         </subviews>
         <constraints>
-            <constraint firstItem="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" firstAttribute="width" constant="331" priority="971" id="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f-width" userLabel="Combined Shape-width"/>
-            <constraint firstItem="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" firstAttribute="height" constant="71" priority="972" id="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f-height" userLabel="Combined Shape-height"/>
-            <constraint secondAttribute="top" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" firstAttribute="top" constant="1" priority="973" id="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f-top" userLabel="Combined Shape-top"/>
-            <constraint secondAttribute="left" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" firstAttribute="left" constant="1" priority="974" id="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f-left" userLabel="Combined Shape-left"/>
-            <constraint firstItem="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" firstAttribute="width" constant="268" priority="971" id="Label-5c624d2e-f040-4865-adbc-265f1f4068c3-width" userLabel="Label: How do you handoff your animation to developers?-width"/>
-            <constraint firstItem="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" firstAttribute="height" constant="32" priority="972" id="Label-5c624d2e-f040-4865-adbc-265f1f4068c3-height" userLabel="Label: How do you handoff your animation to developers?-height"/>
-            <constraint secondAttribute="top" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" firstAttribute="top" constant="7" priority="973" id="Label-5c624d2e-f040-4865-adbc-265f1f4068c3-top" userLabel="Label: How do you handoff your animation to developers?-top"/>
-            <constraint secondAttribute="left" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" firstAttribute="left" constant="63" priority="974" id="Label-5c624d2e-f040-4865-adbc-265f1f4068c3-left" userLabel="Label: How do you handoff your animation to developers?-left"/>
-            <constraint firstItem="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" firstAttribute="width" constant="32" priority="971" id="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee-width" userLabel="Label: 4-width"/>
-            <constraint firstItem="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" firstAttribute="height" constant="16" priority="972" id="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee-height" userLabel="Label: 4-height"/>
-            <constraint secondAttribute="top" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" firstAttribute="top" constant="43" priority="973" id="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee-top" userLabel="Label: 4-top"/>
-            <constraint secondAttribute="left" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" firstAttribute="left" constant="14" priority="974" id="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee-left" userLabel="Label: 4-left"/>
-            <constraint firstItem="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" firstAttribute="width" constant="268" priority="971" id="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb-width" userLabel="Label: 5 comments • from Adi Didi Inbar-width"/>
-            <constraint firstItem="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" firstAttribute="height" constant="14" priority="972" id="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb-height" userLabel="Label: 5 comments • from Adi Didi Inbar-height"/>
-            <constraint secondAttribute="top" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" firstAttribute="top" constant="54" priority="973" id="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb-top" userLabel="Label: 5 comments • from Adi Didi Inbar-top"/>
-            <constraint secondAttribute="left" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" firstAttribute="left" constant="63" priority="974" id="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb-left" userLabel="Label: 5 comments • from Adi Didi Inbar-left"/>
-            <constraint firstItem="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" firstAttribute="width" constant="24.00485" priority="971" id="image-8cefdd70-6bfc-4bdf-8809-619909b276b3-width" userLabel="Triangle 2-width"/>
-            <constraint firstItem="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" firstAttribute="height" constant="14" priority="972" id="image-8cefdd70-6bfc-4bdf-8809-619909b276b3-height" userLabel="Triangle 2-height"/>
-            <constraint secondAttribute="top" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" firstAttribute="top" constant="21" priority="973" id="image-8cefdd70-6bfc-4bdf-8809-619909b276b3-top" userLabel="Triangle 2-top"/>
-            <constraint secondAttribute="left" secondItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstItem="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" firstAttribute="left" constant="18" priority="974" id="image-8cefdd70-6bfc-4bdf-8809-619909b276b3-left" userLabel="Triangle 2-left"/>
+            <constraint firstItem="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" firstAttribute="width" constant="331" priority="971" id="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb-width" userLabel="Combined Shape-width"/>
+            <constraint firstItem="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" firstAttribute="height" constant="71" priority="972" id="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb-height" userLabel="Combined Shape-height"/>
+            <constraint secondAttribute="top" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" firstAttribute="top" constant="1" priority="973" id="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb-top" userLabel="Combined Shape-top"/>
+            <constraint secondAttribute="left" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" firstAttribute="left" constant="1" priority="974" id="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb-left" userLabel="Combined Shape-left"/>
+            <constraint firstItem="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" firstAttribute="width" constant="268" priority="971" id="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6-width" userLabel="Label: How do you handoff your animation to developers?-width"/>
+            <constraint firstItem="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" firstAttribute="height" constant="32" priority="972" id="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6-height" userLabel="Label: How do you handoff your animation to developers?-height"/>
+            <constraint secondAttribute="top" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" firstAttribute="top" constant="7" priority="973" id="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6-top" userLabel="Label: How do you handoff your animation to developers?-top"/>
+            <constraint secondAttribute="left" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" firstAttribute="left" constant="63" priority="974" id="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6-left" userLabel="Label: How do you handoff your animation to developers?-left"/>
+            <constraint firstItem="Label-cdff1817-aa90-48b8-8834-5be53f273624" firstAttribute="width" constant="32" priority="971" id="Label-cdff1817-aa90-48b8-8834-5be53f273624-width" userLabel="Label: 4-width"/>
+            <constraint firstItem="Label-cdff1817-aa90-48b8-8834-5be53f273624" firstAttribute="height" constant="16" priority="972" id="Label-cdff1817-aa90-48b8-8834-5be53f273624-height" userLabel="Label: 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-cdff1817-aa90-48b8-8834-5be53f273624" firstAttribute="top" constant="43" priority="973" id="Label-cdff1817-aa90-48b8-8834-5be53f273624-top" userLabel="Label: 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-cdff1817-aa90-48b8-8834-5be53f273624" firstAttribute="left" constant="14" priority="974" id="Label-cdff1817-aa90-48b8-8834-5be53f273624-left" userLabel="Label: 4-left"/>
+            <constraint firstItem="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" firstAttribute="width" constant="268" priority="971" id="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75-width" userLabel="Label: 5 comments • from Adi Didi Inbar-width"/>
+            <constraint firstItem="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" firstAttribute="height" constant="14" priority="972" id="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75-height" userLabel="Label: 5 comments • from Adi Didi Inbar-height"/>
+            <constraint secondAttribute="top" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" firstAttribute="top" constant="54" priority="973" id="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75-top" userLabel="Label: 5 comments • from Adi Didi Inbar-top"/>
+            <constraint secondAttribute="left" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" firstAttribute="left" constant="63" priority="974" id="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75-left" userLabel="Label: 5 comments • from Adi Didi Inbar-left"/>
+            <constraint firstItem="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" firstAttribute="width" constant="24.00485" priority="971" id="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f-width" userLabel="Triangle 2-width"/>
+            <constraint firstItem="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" firstAttribute="height" constant="14" priority="972" id="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f-height" userLabel="Triangle 2-height"/>
+            <constraint secondAttribute="top" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" firstAttribute="top" constant="21" priority="973" id="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f-top" userLabel="Triangle 2-top"/>
+            <constraint secondAttribute="left" secondItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstItem="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" firstAttribute="left" constant="18" priority="974" id="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f-left" userLabel="Triangle 2-left"/>
         </constraints>
     </view>
         </subviews>
         <constraints>
-            <constraint firstItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstAttribute="width" constant="333" priority="971" id="View-9112235f-ff8f-4539-af84-43fc51fcf78c-width" userLabel="Cell-width"/>
-            <constraint firstItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstAttribute="height" constant="77.5" priority="972" id="View-9112235f-ff8f-4539-af84-43fc51fcf78c-height" userLabel="Cell-height"/>
-            <constraint secondAttribute="top" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" firstItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstAttribute="top" constant="0" priority="973" id="View-9112235f-ff8f-4539-af84-43fc51fcf78c-top" userLabel="Cell-top"/>
-            <constraint secondAttribute="left" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" firstItem="View-9112235f-ff8f-4539-af84-43fc51fcf78c" firstAttribute="left" constant="0" priority="974" id="View-9112235f-ff8f-4539-af84-43fc51fcf78c-left" userLabel="Cell-left"/>
+            <constraint firstItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstAttribute="width" constant="333" priority="971" id="View-d1d173fe-7316-4780-bb60-d919e9b89f25-width" userLabel="Cell-width"/>
+            <constraint firstItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstAttribute="height" constant="77.5" priority="972" id="View-d1d173fe-7316-4780-bb60-d919e9b89f25-height" userLabel="Cell-height"/>
+            <constraint secondAttribute="top" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" firstItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstAttribute="top" constant="0" priority="973" id="View-d1d173fe-7316-4780-bb60-d919e9b89f25-top" userLabel="Cell-top"/>
+            <constraint secondAttribute="left" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" firstItem="View-d1d173fe-7316-4780-bb60-d919e9b89f25" firstAttribute="left" constant="0" priority="974" id="View-d1d173fe-7316-4780-bb60-d919e9b89f25-left" userLabel="Cell-left"/>
         </constraints>
                         </tableViewCellContentView>
                         <constraints>
-                            <constraint firstItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" firstAttribute="left" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Cell" secondAttribute="left" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-ContentView-left" userLabel="ContentView-Left"/>
-                            <constraint firstItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" firstAttribute="top" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Cell" secondAttribute="top" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-ContentView-top" userLabel="ContentView-Top"/>
-                            <constraint firstAttribute="bottom" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" secondAttribute="bottom" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-ContentView-bottom" userLabel="ContentView-Bottom"/>
-                            <constraint firstAttribute="right" secondItem="Cell-82a97274-ff70-480b-814c-847ad1be9dc2" secondAttribute="right" id="Cell-82a97274-ff70-480b-814c-847ad1be9dc2-ContentView-right" userLabel="ContentView-Right"/>
+                            <constraint firstItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" firstAttribute="left" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Cell" secondAttribute="left" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-ContentView-left" userLabel="ContentView-Left"/>
+                            <constraint firstItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" firstAttribute="top" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Cell" secondAttribute="top" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-ContentView-top" userLabel="ContentView-Top"/>
+                            <constraint firstAttribute="bottom" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" secondAttribute="bottom" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-ContentView-bottom" userLabel="ContentView-Bottom"/>
+                            <constraint firstAttribute="right" secondItem="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795" secondAttribute="right" id="Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-ContentView-right" userLabel="ContentView-Right"/>
                         </constraints>
                                 <connections>
-                                    <outlet property="tableCell7Cell" destination="View-9112235f-ff8f-4539-af84-43fc51fcf78c" id="tableCell7Cell-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7Cell" destination="View-d1d173fe-7316-4780-bb60-d919e9b89f25" id="tableCell7Cell-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
-                                    <outlet property="tableCell7CellCombinedShape" destination="View-9aab4fa8-61fc-40ca-aecc-874ea842d69f" id="tableCell7CellCombinedShape-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7CellCombinedShape" destination="View-4f15f8a1-683d-4062-8b56-f65ae5fa3cdb" id="tableCell7CellCombinedShape-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
-                                    <outlet property="tableCell7CellLabelHowDoYouHandoffYourAnimationToDevelopers" destination="Label-5c624d2e-f040-4865-adbc-265f1f4068c3" id="tableCell7CellLabelHowDoYouHandoffYourAnimationToDevelopers-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7CellLabelHowDoYouHandoffYourAnimationToDevelopers" destination="Label-1bc250db-ca79-4e0a-9699-c2029cde45f6" id="tableCell7CellLabelHowDoYouHandoffYourAnimationToDevelopers-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
-                                    <outlet property="tableCell7CellLabel4" destination="Label-e8c2b8a3-bc4d-4cef-b392-c9451c63abee" id="tableCell7CellLabel4-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7CellLabel4" destination="Label-cdff1817-aa90-48b8-8834-5be53f273624" id="tableCell7CellLabel4-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
-                                    <outlet property="tableCell7CellLabel5CommentsFromAdiDidiInbar" destination="Label-c8e40de3-a065-4c0b-a1cc-91100b8eaedb" id="tableCell7CellLabel5CommentsFromAdiDidiInbar-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7CellLabel5CommentsFromAdiDidiInbar" destination="Label-2cc2c938-4376-4000-8ba6-1ff5fc036e75" id="tableCell7CellLabel5CommentsFromAdiDidiInbar-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
-                                    <outlet property="tableCell7CellTriangle2" destination="image-8cefdd70-6bfc-4bdf-8809-619909b276b3" id="tableCell7CellTriangle2-Cell-82a97274-ff70-480b-814c-847ad1be9dc2-Prop"/>
+                                    <outlet property="tableCell7CellTriangle2" destination="image-4e55867d-8a4e-4278-9fd9-13f784f7ae8f" id="tableCell7CellTriangle2-Cell-f6e0074b-9c32-4957-bfce-5323a1e5f795-Prop"/>
         
                                 </connections>
-</tableViewCell>                     <tableViewCell rowHeight="82" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell6" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell6" >
+</tableViewCell>                     <tableViewCell rowHeight="82" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell6" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell6" >
                         <rect key="frame" x="0" y="77.5" width="333" height="82"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" userLabel="Cell ContentView"   tableViewCell="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Cell">
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" userLabel="Cell ContentView"   tableViewCell="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Cell">
         <rect key="frame" x="0" y="0" width="333" height="82"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                             <autoresizingMask key="autoresizingMask"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-470976a7-3b0c-49ef-875f-671fb7d31fea" userLabel="Cell"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-c181422f-3438-48aa-a926-55eebc88441b" userLabel="Cell"  >
         <rect key="frame" x="0" y="4.5" width="332" height="77.5"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" userLabel="Combined Shape"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" userLabel="Combined Shape"  >
         <rect key="frame" x="1" y="1" width="330" height="71"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes>
@@ -378,7 +378,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" userLabel="Label: Should you learn web design and if so, where to start?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" userLabel="Label: Should you learn web design and if so, where to start?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">Should you learn web design and if so, where to start?</string>
         <rect key="frame" x="62" y="7" width="268" height="32"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -401,7 +401,7 @@
         <constraints>
         </constraints>
     </label>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" userLabel="Label: 3"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" userLabel="Label: 3"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">3</string>
         <rect key="frame" x="13" y="43" width="32" height="16"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -424,7 +424,7 @@
         <constraints>
         </constraints>
     </label>
-    <imageView image="table screentriangle 2  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" userLabel="Triangle 2"   >
+    <imageView image="table screentriangle 2  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-e0701e62-a73e-4d6c-8a49-fc224baef896" userLabel="Triangle 2"   >
         <rect key="frame" x="17" y="21" width="24.00485" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -433,7 +433,7 @@
         <constraints>
         </constraints>
     </imageView>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" userLabel="Label: 1 comment • from Gergo Bekes"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" userLabel="Label: 1 comment • from Gergo Bekes"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">1 comment • from Gergo Bekes</string>
         <rect key="frame" x="62" y="55" width="268" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -458,74 +458,74 @@
     </label>
         </subviews>
         <constraints>
-            <constraint firstItem="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" firstAttribute="width" constant="330" priority="971" id="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6-width" userLabel="Combined Shape-width"/>
-            <constraint firstItem="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" firstAttribute="height" constant="71" priority="972" id="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6-height" userLabel="Combined Shape-height"/>
-            <constraint secondAttribute="top" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" firstAttribute="top" constant="1" priority="973" id="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6-top" userLabel="Combined Shape-top"/>
-            <constraint secondAttribute="left" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" firstAttribute="left" constant="1" priority="974" id="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6-left" userLabel="Combined Shape-left"/>
-            <constraint firstItem="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" firstAttribute="width" constant="268" priority="971" id="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00-width" userLabel="Label: Should you learn web design and if so, where to start?-width"/>
-            <constraint firstItem="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" firstAttribute="height" constant="32" priority="972" id="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00-height" userLabel="Label: Should you learn web design and if so, where to start?-height"/>
-            <constraint secondAttribute="top" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" firstAttribute="top" constant="7" priority="973" id="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00-top" userLabel="Label: Should you learn web design and if so, where to start?-top"/>
-            <constraint secondAttribute="left" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" firstAttribute="left" constant="62" priority="974" id="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00-left" userLabel="Label: Should you learn web design and if so, where to start?-left"/>
-            <constraint firstItem="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" firstAttribute="width" constant="32" priority="971" id="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40-width" userLabel="Label: 3-width"/>
-            <constraint firstItem="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" firstAttribute="height" constant="16" priority="972" id="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40-height" userLabel="Label: 3-height"/>
-            <constraint secondAttribute="top" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" firstAttribute="top" constant="43" priority="973" id="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40-top" userLabel="Label: 3-top"/>
-            <constraint secondAttribute="left" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" firstAttribute="left" constant="13" priority="974" id="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40-left" userLabel="Label: 3-left"/>
-            <constraint firstItem="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" firstAttribute="width" constant="24.00485" priority="971" id="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820-width" userLabel="Triangle 2-width"/>
-            <constraint firstItem="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" firstAttribute="height" constant="14" priority="972" id="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820-height" userLabel="Triangle 2-height"/>
-            <constraint secondAttribute="top" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" firstAttribute="top" constant="21" priority="973" id="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820-top" userLabel="Triangle 2-top"/>
-            <constraint secondAttribute="left" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" firstAttribute="left" constant="17" priority="974" id="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820-left" userLabel="Triangle 2-left"/>
-            <constraint firstItem="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" firstAttribute="width" constant="268" priority="971" id="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb-width" userLabel="Label: 1 comment • from Gergo Bekes-width"/>
-            <constraint firstItem="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" firstAttribute="height" constant="14" priority="972" id="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb-height" userLabel="Label: 1 comment • from Gergo Bekes-height"/>
-            <constraint secondAttribute="top" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" firstAttribute="top" constant="55" priority="973" id="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb-top" userLabel="Label: 1 comment • from Gergo Bekes-top"/>
-            <constraint secondAttribute="left" secondItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstItem="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" firstAttribute="left" constant="62" priority="974" id="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb-left" userLabel="Label: 1 comment • from Gergo Bekes-left"/>
+            <constraint firstItem="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" firstAttribute="width" constant="330" priority="971" id="View-38a94311-2485-4bca-9ad2-fb05ee6a037f-width" userLabel="Combined Shape-width"/>
+            <constraint firstItem="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" firstAttribute="height" constant="71" priority="972" id="View-38a94311-2485-4bca-9ad2-fb05ee6a037f-height" userLabel="Combined Shape-height"/>
+            <constraint secondAttribute="top" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" firstAttribute="top" constant="1" priority="973" id="View-38a94311-2485-4bca-9ad2-fb05ee6a037f-top" userLabel="Combined Shape-top"/>
+            <constraint secondAttribute="left" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" firstAttribute="left" constant="1" priority="974" id="View-38a94311-2485-4bca-9ad2-fb05ee6a037f-left" userLabel="Combined Shape-left"/>
+            <constraint firstItem="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" firstAttribute="width" constant="268" priority="971" id="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f-width" userLabel="Label: Should you learn web design and if so, where to start?-width"/>
+            <constraint firstItem="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" firstAttribute="height" constant="32" priority="972" id="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f-height" userLabel="Label: Should you learn web design and if so, where to start?-height"/>
+            <constraint secondAttribute="top" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" firstAttribute="top" constant="7" priority="973" id="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f-top" userLabel="Label: Should you learn web design and if so, where to start?-top"/>
+            <constraint secondAttribute="left" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" firstAttribute="left" constant="62" priority="974" id="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f-left" userLabel="Label: Should you learn web design and if so, where to start?-left"/>
+            <constraint firstItem="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" firstAttribute="width" constant="32" priority="971" id="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69-width" userLabel="Label: 3-width"/>
+            <constraint firstItem="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" firstAttribute="height" constant="16" priority="972" id="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69-height" userLabel="Label: 3-height"/>
+            <constraint secondAttribute="top" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" firstAttribute="top" constant="43" priority="973" id="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69-top" userLabel="Label: 3-top"/>
+            <constraint secondAttribute="left" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" firstAttribute="left" constant="13" priority="974" id="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69-left" userLabel="Label: 3-left"/>
+            <constraint firstItem="image-e0701e62-a73e-4d6c-8a49-fc224baef896" firstAttribute="width" constant="24.00485" priority="971" id="image-e0701e62-a73e-4d6c-8a49-fc224baef896-width" userLabel="Triangle 2-width"/>
+            <constraint firstItem="image-e0701e62-a73e-4d6c-8a49-fc224baef896" firstAttribute="height" constant="14" priority="972" id="image-e0701e62-a73e-4d6c-8a49-fc224baef896-height" userLabel="Triangle 2-height"/>
+            <constraint secondAttribute="top" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="image-e0701e62-a73e-4d6c-8a49-fc224baef896" firstAttribute="top" constant="21" priority="973" id="image-e0701e62-a73e-4d6c-8a49-fc224baef896-top" userLabel="Triangle 2-top"/>
+            <constraint secondAttribute="left" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="image-e0701e62-a73e-4d6c-8a49-fc224baef896" firstAttribute="left" constant="17" priority="974" id="image-e0701e62-a73e-4d6c-8a49-fc224baef896-left" userLabel="Triangle 2-left"/>
+            <constraint firstItem="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" firstAttribute="width" constant="268" priority="971" id="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12-width" userLabel="Label: 1 comment • from Gergo Bekes-width"/>
+            <constraint firstItem="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" firstAttribute="height" constant="14" priority="972" id="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12-height" userLabel="Label: 1 comment • from Gergo Bekes-height"/>
+            <constraint secondAttribute="top" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" firstAttribute="top" constant="55" priority="973" id="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12-top" userLabel="Label: 1 comment • from Gergo Bekes-top"/>
+            <constraint secondAttribute="left" secondItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstItem="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" firstAttribute="left" constant="62" priority="974" id="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12-left" userLabel="Label: 1 comment • from Gergo Bekes-left"/>
         </constraints>
     </view>
         </subviews>
         <constraints>
-            <constraint firstItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstAttribute="width" constant="332" priority="971" id="View-470976a7-3b0c-49ef-875f-671fb7d31fea-width" userLabel="Cell-width"/>
-            <constraint firstItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstAttribute="height" constant="77.5" priority="972" id="View-470976a7-3b0c-49ef-875f-671fb7d31fea-height" userLabel="Cell-height"/>
-            <constraint secondAttribute="top" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" firstItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstAttribute="top" constant="4.5" priority="973" id="View-470976a7-3b0c-49ef-875f-671fb7d31fea-top" userLabel="Cell-top"/>
-            <constraint secondAttribute="left" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" firstItem="View-470976a7-3b0c-49ef-875f-671fb7d31fea" firstAttribute="left" constant="0" priority="974" id="View-470976a7-3b0c-49ef-875f-671fb7d31fea-left" userLabel="Cell-left"/>
+            <constraint firstItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstAttribute="width" constant="332" priority="971" id="View-c181422f-3438-48aa-a926-55eebc88441b-width" userLabel="Cell-width"/>
+            <constraint firstItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstAttribute="height" constant="77.5" priority="972" id="View-c181422f-3438-48aa-a926-55eebc88441b-height" userLabel="Cell-height"/>
+            <constraint secondAttribute="top" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" firstItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstAttribute="top" constant="4.5" priority="973" id="View-c181422f-3438-48aa-a926-55eebc88441b-top" userLabel="Cell-top"/>
+            <constraint secondAttribute="left" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" firstItem="View-c181422f-3438-48aa-a926-55eebc88441b" firstAttribute="left" constant="0" priority="974" id="View-c181422f-3438-48aa-a926-55eebc88441b-left" userLabel="Cell-left"/>
         </constraints>
                         </tableViewCellContentView>
                         <constraints>
-                            <constraint firstItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" firstAttribute="left" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Cell" secondAttribute="left" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-ContentView-left" userLabel="ContentView-Left"/>
-                            <constraint firstItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" firstAttribute="top" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Cell" secondAttribute="top" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-ContentView-top" userLabel="ContentView-Top"/>
-                            <constraint firstAttribute="bottom" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" secondAttribute="bottom" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-ContentView-bottom" userLabel="ContentView-Bottom"/>
-                            <constraint firstAttribute="right" secondItem="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3" secondAttribute="right" id="Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-ContentView-right" userLabel="ContentView-Right"/>
+                            <constraint firstItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" firstAttribute="left" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Cell" secondAttribute="left" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-ContentView-left" userLabel="ContentView-Left"/>
+                            <constraint firstItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" firstAttribute="top" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Cell" secondAttribute="top" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-ContentView-top" userLabel="ContentView-Top"/>
+                            <constraint firstAttribute="bottom" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" secondAttribute="bottom" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-ContentView-bottom" userLabel="ContentView-Bottom"/>
+                            <constraint firstAttribute="right" secondItem="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f" secondAttribute="right" id="Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-ContentView-right" userLabel="ContentView-Right"/>
                         </constraints>
                                 <connections>
-                                    <outlet property="tableCell6Cell" destination="View-470976a7-3b0c-49ef-875f-671fb7d31fea" id="tableCell6Cell-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6Cell" destination="View-c181422f-3438-48aa-a926-55eebc88441b" id="tableCell6Cell-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
-                                    <outlet property="tableCell6CellCombinedShape" destination="View-6ba9797b-2a86-42b2-8a67-a18f2d519be6" id="tableCell6CellCombinedShape-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6CellCombinedShape" destination="View-38a94311-2485-4bca-9ad2-fb05ee6a037f" id="tableCell6CellCombinedShape-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
-                                    <outlet property="tableCell6CellLabelShouldYouLearnWebDesignAndIfSoWhereToStart" destination="Label-f2d73ebf-8754-4b57-93d0-656dd500cd00" id="tableCell6CellLabelShouldYouLearnWebDesignAndIfSoWhereToStart-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6CellLabelShouldYouLearnWebDesignAndIfSoWhereToStart" destination="Label-a9771ceb-e6f4-4a0b-9196-6efc77b33d1f" id="tableCell6CellLabelShouldYouLearnWebDesignAndIfSoWhereToStart-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
-                                    <outlet property="tableCell6CellLabel3" destination="Label-e6cc8457-e7ac-478f-9b38-1c8e80544a40" id="tableCell6CellLabel3-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6CellLabel3" destination="Label-f28b2990-fa59-450a-afc3-dbbb7a743d69" id="tableCell6CellLabel3-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
-                                    <outlet property="tableCell6CellTriangle2" destination="image-a5cac23b-bee0-4f43-a3f0-c1d68fe67820" id="tableCell6CellTriangle2-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6CellTriangle2" destination="image-e0701e62-a73e-4d6c-8a49-fc224baef896" id="tableCell6CellTriangle2-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
-                                    <outlet property="tableCell6CellLabel1CommentFromGergoBekes" destination="Label-8ddf04ce-c2fc-45a5-b3d5-7da57bbcf8fb" id="tableCell6CellLabel1CommentFromGergoBekes-Cell-c48f9875-e025-4ebc-aacc-dda6486860a3-Prop"/>
+                                    <outlet property="tableCell6CellLabel1CommentFromGergoBekes" destination="Label-89fcb85e-4066-4cf0-bd51-5038efe62a12" id="tableCell6CellLabel1CommentFromGergoBekes-Cell-36df169d-96b6-4eb2-9d44-5046de2ae70f-Prop"/>
         
                                 </connections>
-</tableViewCell>                     <tableViewCell rowHeight="82" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell5" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell5" >
+</tableViewCell>                     <tableViewCell rowHeight="82" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell5" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCell5" >
                         <rect key="frame" x="0" y="159.5" width="333" height="82"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" userLabel="Cell ContentView"   tableViewCell="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Cell">
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" userLabel="Cell ContentView"   tableViewCell="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Cell">
         <rect key="frame" x="0" y="0" width="333" height="82"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                             <autoresizingMask key="autoresizingMask"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" userLabel="Cell"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" userLabel="Cell"  >
         <rect key="frame" x="0" y="4.5" width="332" height="77.5"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" userLabel="Combined Shape"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" userLabel="Combined Shape"  >
         <rect key="frame" x="1" y="1" width="330" height="71"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes>
@@ -538,7 +538,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" userLabel="Label: 9"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" userLabel="Label: 9"  customClass="ANLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">9</string>
         <rect key="frame" x="13" y="43" width="32" height="16"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -561,7 +561,7 @@
         <constraints>
         </constraints>
     </label>
-    <imageView image="table screentriangle 2  2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" userLabel="Triangle 2"   >
+    <imageView image="table screentriangle 2  2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" userLabel="Triangle 2"   >
         <rect key="frame" x="17" y="21" width="24.00485" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -570,7 +570,7 @@
         <constraints>
         </constraints>
     </imageView>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" userLabel="Label: Ask DN: what is your blog set up with?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-434762f5-3109-446c-b7a6-86506d316a0e" userLabel="Label: Ask DN: what is your blog set up with?"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">Ask DN: what is your blog set up with?</string>
         <rect key="frame" x="62" y="7" width="268" height="16"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -593,7 +593,7 @@
         <constraints>
         </constraints>
     </label>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-5d208afe-ce34-4717-aa51-4a064c63c581" userLabel="Label: 12 comments • from Connor Norvell"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" userLabel="Label: 12 comments • from Connor Norvell"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">12 comments • from Connor Norvell</string>
         <rect key="frame" x="62" y="55" width="268" height="14"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -618,74 +618,74 @@
     </label>
         </subviews>
         <constraints>
-            <constraint firstItem="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" firstAttribute="width" constant="330" priority="971" id="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d-width" userLabel="Combined Shape-width"/>
-            <constraint firstItem="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" firstAttribute="height" constant="71" priority="972" id="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d-height" userLabel="Combined Shape-height"/>
-            <constraint secondAttribute="top" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" firstAttribute="top" constant="1" priority="973" id="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d-top" userLabel="Combined Shape-top"/>
-            <constraint secondAttribute="left" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" firstAttribute="left" constant="1" priority="974" id="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d-left" userLabel="Combined Shape-left"/>
-            <constraint firstItem="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" firstAttribute="width" constant="32" priority="971" id="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f-width" userLabel="Label: 9-width"/>
-            <constraint firstItem="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" firstAttribute="height" constant="16" priority="972" id="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f-height" userLabel="Label: 9-height"/>
-            <constraint secondAttribute="top" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" firstAttribute="top" constant="43" priority="973" id="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f-top" userLabel="Label: 9-top"/>
-            <constraint secondAttribute="left" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" firstAttribute="left" constant="13" priority="974" id="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f-left" userLabel="Label: 9-left"/>
-            <constraint firstItem="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" firstAttribute="width" constant="24.00485" priority="971" id="image-0090be64-5a96-4c5c-980e-923dbf21d2ef-width" userLabel="Triangle 2-width"/>
-            <constraint firstItem="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" firstAttribute="height" constant="14" priority="972" id="image-0090be64-5a96-4c5c-980e-923dbf21d2ef-height" userLabel="Triangle 2-height"/>
-            <constraint secondAttribute="top" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" firstAttribute="top" constant="21" priority="973" id="image-0090be64-5a96-4c5c-980e-923dbf21d2ef-top" userLabel="Triangle 2-top"/>
-            <constraint secondAttribute="left" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" firstAttribute="left" constant="17" priority="974" id="image-0090be64-5a96-4c5c-980e-923dbf21d2ef-left" userLabel="Triangle 2-left"/>
-            <constraint firstItem="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" firstAttribute="width" constant="268" priority="971" id="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e-width" userLabel="Label: Ask DN: what is your blog set up with?-width"/>
-            <constraint firstItem="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" firstAttribute="height" constant="16" priority="972" id="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e-height" userLabel="Label: Ask DN: what is your blog set up with?-height"/>
-            <constraint secondAttribute="top" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" firstAttribute="top" constant="7" priority="973" id="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e-top" userLabel="Label: Ask DN: what is your blog set up with?-top"/>
-            <constraint secondAttribute="left" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" firstAttribute="left" constant="62" priority="974" id="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e-left" userLabel="Label: Ask DN: what is your blog set up with?-left"/>
-            <constraint firstItem="Label-5d208afe-ce34-4717-aa51-4a064c63c581" firstAttribute="width" constant="268" priority="971" id="Label-5d208afe-ce34-4717-aa51-4a064c63c581-width" userLabel="Label: 12 comments • from Connor Norvell-width"/>
-            <constraint firstItem="Label-5d208afe-ce34-4717-aa51-4a064c63c581" firstAttribute="height" constant="14" priority="972" id="Label-5d208afe-ce34-4717-aa51-4a064c63c581-height" userLabel="Label: 12 comments • from Connor Norvell-height"/>
-            <constraint secondAttribute="top" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-5d208afe-ce34-4717-aa51-4a064c63c581" firstAttribute="top" constant="55" priority="973" id="Label-5d208afe-ce34-4717-aa51-4a064c63c581-top" userLabel="Label: 12 comments • from Connor Norvell-top"/>
-            <constraint secondAttribute="left" secondItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstItem="Label-5d208afe-ce34-4717-aa51-4a064c63c581" firstAttribute="left" constant="62" priority="974" id="Label-5d208afe-ce34-4717-aa51-4a064c63c581-left" userLabel="Label: 12 comments • from Connor Norvell-left"/>
+            <constraint firstItem="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" firstAttribute="width" constant="330" priority="971" id="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9-width" userLabel="Combined Shape-width"/>
+            <constraint firstItem="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" firstAttribute="height" constant="71" priority="972" id="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9-height" userLabel="Combined Shape-height"/>
+            <constraint secondAttribute="top" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" firstAttribute="top" constant="1" priority="973" id="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9-top" userLabel="Combined Shape-top"/>
+            <constraint secondAttribute="left" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" firstAttribute="left" constant="1" priority="974" id="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9-left" userLabel="Combined Shape-left"/>
+            <constraint firstItem="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" firstAttribute="width" constant="32" priority="971" id="Label-b273fe42-6166-43af-a72d-f75e03db8bf7-width" userLabel="Label: 9-width"/>
+            <constraint firstItem="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" firstAttribute="height" constant="16" priority="972" id="Label-b273fe42-6166-43af-a72d-f75e03db8bf7-height" userLabel="Label: 9-height"/>
+            <constraint secondAttribute="top" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" firstAttribute="top" constant="43" priority="973" id="Label-b273fe42-6166-43af-a72d-f75e03db8bf7-top" userLabel="Label: 9-top"/>
+            <constraint secondAttribute="left" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" firstAttribute="left" constant="13" priority="974" id="Label-b273fe42-6166-43af-a72d-f75e03db8bf7-left" userLabel="Label: 9-left"/>
+            <constraint firstItem="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" firstAttribute="width" constant="24.00485" priority="971" id="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c-width" userLabel="Triangle 2-width"/>
+            <constraint firstItem="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" firstAttribute="height" constant="14" priority="972" id="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c-height" userLabel="Triangle 2-height"/>
+            <constraint secondAttribute="top" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" firstAttribute="top" constant="21" priority="973" id="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c-top" userLabel="Triangle 2-top"/>
+            <constraint secondAttribute="left" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" firstAttribute="left" constant="17" priority="974" id="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c-left" userLabel="Triangle 2-left"/>
+            <constraint firstItem="Label-434762f5-3109-446c-b7a6-86506d316a0e" firstAttribute="width" constant="268" priority="971" id="Label-434762f5-3109-446c-b7a6-86506d316a0e-width" userLabel="Label: Ask DN: what is your blog set up with?-width"/>
+            <constraint firstItem="Label-434762f5-3109-446c-b7a6-86506d316a0e" firstAttribute="height" constant="16" priority="972" id="Label-434762f5-3109-446c-b7a6-86506d316a0e-height" userLabel="Label: Ask DN: what is your blog set up with?-height"/>
+            <constraint secondAttribute="top" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-434762f5-3109-446c-b7a6-86506d316a0e" firstAttribute="top" constant="7" priority="973" id="Label-434762f5-3109-446c-b7a6-86506d316a0e-top" userLabel="Label: Ask DN: what is your blog set up with?-top"/>
+            <constraint secondAttribute="left" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-434762f5-3109-446c-b7a6-86506d316a0e" firstAttribute="left" constant="62" priority="974" id="Label-434762f5-3109-446c-b7a6-86506d316a0e-left" userLabel="Label: Ask DN: what is your blog set up with?-left"/>
+            <constraint firstItem="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" firstAttribute="width" constant="268" priority="971" id="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158-width" userLabel="Label: 12 comments • from Connor Norvell-width"/>
+            <constraint firstItem="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" firstAttribute="height" constant="14" priority="972" id="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158-height" userLabel="Label: 12 comments • from Connor Norvell-height"/>
+            <constraint secondAttribute="top" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" firstAttribute="top" constant="55" priority="973" id="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158-top" userLabel="Label: 12 comments • from Connor Norvell-top"/>
+            <constraint secondAttribute="left" secondItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstItem="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" firstAttribute="left" constant="62" priority="974" id="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158-left" userLabel="Label: 12 comments • from Connor Norvell-left"/>
         </constraints>
     </view>
         </subviews>
         <constraints>
-            <constraint firstItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstAttribute="width" constant="332" priority="971" id="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73-width" userLabel="Cell-width"/>
-            <constraint firstItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstAttribute="height" constant="77.5" priority="972" id="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73-height" userLabel="Cell-height"/>
-            <constraint secondAttribute="top" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" firstItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstAttribute="top" constant="4.5" priority="973" id="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73-top" userLabel="Cell-top"/>
-            <constraint secondAttribute="left" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" firstItem="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" firstAttribute="left" constant="0" priority="974" id="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73-left" userLabel="Cell-left"/>
+            <constraint firstItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstAttribute="width" constant="332" priority="971" id="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e-width" userLabel="Cell-width"/>
+            <constraint firstItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstAttribute="height" constant="77.5" priority="972" id="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e-height" userLabel="Cell-height"/>
+            <constraint secondAttribute="top" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" firstItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstAttribute="top" constant="4.5" priority="973" id="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e-top" userLabel="Cell-top"/>
+            <constraint secondAttribute="left" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" firstItem="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" firstAttribute="left" constant="0" priority="974" id="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e-left" userLabel="Cell-left"/>
         </constraints>
                         </tableViewCellContentView>
                         <constraints>
-                            <constraint firstItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" firstAttribute="left" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Cell" secondAttribute="left" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-ContentView-left" userLabel="ContentView-Left"/>
-                            <constraint firstItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" firstAttribute="top" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Cell" secondAttribute="top" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-ContentView-top" userLabel="ContentView-Top"/>
-                            <constraint firstAttribute="bottom" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" secondAttribute="bottom" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-ContentView-bottom" userLabel="ContentView-Bottom"/>
-                            <constraint firstAttribute="right" secondItem="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2" secondAttribute="right" id="Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-ContentView-right" userLabel="ContentView-Right"/>
+                            <constraint firstItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" firstAttribute="left" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Cell" secondAttribute="left" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-ContentView-left" userLabel="ContentView-Left"/>
+                            <constraint firstItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" firstAttribute="top" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Cell" secondAttribute="top" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-ContentView-top" userLabel="ContentView-Top"/>
+                            <constraint firstAttribute="bottom" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" secondAttribute="bottom" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-ContentView-bottom" userLabel="ContentView-Bottom"/>
+                            <constraint firstAttribute="right" secondItem="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2" secondAttribute="right" id="Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-ContentView-right" userLabel="ContentView-Right"/>
                         </constraints>
                                 <connections>
-                                    <outlet property="tableCell5Cell" destination="View-40fa77f6-105d-40d5-b0a5-ead1b259ad73" id="tableCell5Cell-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5Cell" destination="View-b170774c-c17f-4f37-86e1-5dd2074c1b0e" id="tableCell5Cell-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
-                                    <outlet property="tableCell5CellCombinedShape" destination="View-0f5470d4-64ab-4d42-b7e8-9f933865d19d" id="tableCell5CellCombinedShape-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5CellCombinedShape" destination="View-525ac969-0ce3-4fd4-b7a6-3dff187ef2d9" id="tableCell5CellCombinedShape-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
-                                    <outlet property="tableCell5CellLabel9" destination="Label-77541eb2-b80f-4d39-9075-e164ec3bd11f" id="tableCell5CellLabel9-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5CellLabel9" destination="Label-b273fe42-6166-43af-a72d-f75e03db8bf7" id="tableCell5CellLabel9-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
-                                    <outlet property="tableCell5CellTriangle2" destination="image-0090be64-5a96-4c5c-980e-923dbf21d2ef" id="tableCell5CellTriangle2-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5CellTriangle2" destination="image-c6e87a34-07ee-4c26-a8f7-db2106f2319c" id="tableCell5CellTriangle2-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
-                                    <outlet property="tableCell5CellLabelAskDnWhatIsYourBlogSetUpWith" destination="Label-488fb7f5-3d2d-46e3-b784-f38f36c9658e" id="tableCell5CellLabelAskDnWhatIsYourBlogSetUpWith-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5CellLabelAskDnWhatIsYourBlogSetUpWith" destination="Label-434762f5-3109-446c-b7a6-86506d316a0e" id="tableCell5CellLabelAskDnWhatIsYourBlogSetUpWith-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
-                                    <outlet property="tableCell5CellLabel12CommentsFromConnorNorvell" destination="Label-5d208afe-ce34-4717-aa51-4a064c63c581" id="tableCell5CellLabel12CommentsFromConnorNorvell-Cell-2cda6573-31bf-403a-b32f-e05dd39f9ed2-Prop"/>
+                                    <outlet property="tableCell5CellLabel12CommentsFromConnorNorvell" destination="Label-1095b9fb-08ec-4573-a8c6-009a80bd2158" id="tableCell5CellLabel12CommentsFromConnorNorvell-Cell-9ccbcc96-1b22-4423-804e-38c83ee970f2-Prop"/>
         
                                 </connections>
-</tableViewCell>                     <tableViewCell rowHeight="77.5" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellCell" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCellCell" >
+</tableViewCell>                     <tableViewCell rowHeight="77.5" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Cell" userLabel="Cell Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellCell" clipsSubviews="YES" contentMode="scaleToFill" customClass="APCellCell" >
                         <rect key="frame" x="0" y="241.5" width="333" height="77.5"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" userLabel="Cell ContentView"   tableViewCell="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Cell">
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" userLabel="Cell ContentView"   tableViewCell="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Cell">
         <rect key="frame" x="0" y="0" width="333" height="77.5"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                             <autoresizingMask key="autoresizingMask"/>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" userLabel="Cell"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-96a13344-3268-4956-8996-e1df8f5157ac" userLabel="Cell"  >
         <rect key="frame" x="0" y="4.5" width="332" height="73"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" userLabel="Combined Shape"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" userLabel="Combined Shape"  >
         <rect key="frame" x="1" y="1" width="330" height="71"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes>
@@ -698,7 +698,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" userLabel="Label: Work with Stripe"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" userLabel="Label: Work with Stripe"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">Work with Stripe</string>
         <rect key="frame" x="62" y="7" width="268" height="16"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -723,49 +723,49 @@
     </label>
         </subviews>
         <constraints>
-            <constraint firstItem="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" firstAttribute="width" constant="330" priority="971" id="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada-width" userLabel="Combined Shape-width"/>
-            <constraint firstItem="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" firstAttribute="height" constant="71" priority="972" id="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada-height" userLabel="Combined Shape-height"/>
-            <constraint secondAttribute="top" secondItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstItem="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" firstAttribute="top" constant="1" priority="973" id="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada-top" userLabel="Combined Shape-top"/>
-            <constraint secondAttribute="left" secondItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstItem="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" firstAttribute="left" constant="1" priority="974" id="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada-left" userLabel="Combined Shape-left"/>
-            <constraint firstItem="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" firstAttribute="width" constant="268" priority="971" id="Label-767b3b61-6fd8-4805-868f-210e9669fdc8-width" userLabel="Label: Work with Stripe-width"/>
-            <constraint firstItem="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" firstAttribute="height" constant="16" priority="972" id="Label-767b3b61-6fd8-4805-868f-210e9669fdc8-height" userLabel="Label: Work with Stripe-height"/>
-            <constraint secondAttribute="top" secondItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstItem="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" firstAttribute="top" constant="7" priority="973" id="Label-767b3b61-6fd8-4805-868f-210e9669fdc8-top" userLabel="Label: Work with Stripe-top"/>
-            <constraint secondAttribute="left" secondItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstItem="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" firstAttribute="left" constant="62" priority="974" id="Label-767b3b61-6fd8-4805-868f-210e9669fdc8-left" userLabel="Label: Work with Stripe-left"/>
+            <constraint firstItem="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" firstAttribute="width" constant="330" priority="971" id="View-3cad9727-5fb7-435b-8c75-9b63cfec647a-width" userLabel="Combined Shape-width"/>
+            <constraint firstItem="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" firstAttribute="height" constant="71" priority="972" id="View-3cad9727-5fb7-435b-8c75-9b63cfec647a-height" userLabel="Combined Shape-height"/>
+            <constraint secondAttribute="top" secondItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstItem="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" firstAttribute="top" constant="1" priority="973" id="View-3cad9727-5fb7-435b-8c75-9b63cfec647a-top" userLabel="Combined Shape-top"/>
+            <constraint secondAttribute="left" secondItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstItem="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" firstAttribute="left" constant="1" priority="974" id="View-3cad9727-5fb7-435b-8c75-9b63cfec647a-left" userLabel="Combined Shape-left"/>
+            <constraint firstItem="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" firstAttribute="width" constant="268" priority="971" id="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e-width" userLabel="Label: Work with Stripe-width"/>
+            <constraint firstItem="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" firstAttribute="height" constant="16" priority="972" id="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e-height" userLabel="Label: Work with Stripe-height"/>
+            <constraint secondAttribute="top" secondItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstItem="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" firstAttribute="top" constant="7" priority="973" id="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e-top" userLabel="Label: Work with Stripe-top"/>
+            <constraint secondAttribute="left" secondItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstItem="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" firstAttribute="left" constant="62" priority="974" id="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e-left" userLabel="Label: Work with Stripe-left"/>
         </constraints>
     </view>
         </subviews>
         <constraints>
-            <constraint firstItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstAttribute="width" constant="332" priority="971" id="View-af4632d9-074e-43c9-b31d-4c3fdd54b590-width" userLabel="Cell-width"/>
-            <constraint firstItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstAttribute="height" constant="73" priority="972" id="View-af4632d9-074e-43c9-b31d-4c3fdd54b590-height" userLabel="Cell-height"/>
-            <constraint secondAttribute="top" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" firstItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstAttribute="top" constant="4.5" priority="973" id="View-af4632d9-074e-43c9-b31d-4c3fdd54b590-top" userLabel="Cell-top"/>
-            <constraint secondAttribute="left" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" firstItem="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" firstAttribute="left" constant="0" priority="974" id="View-af4632d9-074e-43c9-b31d-4c3fdd54b590-left" userLabel="Cell-left"/>
+            <constraint firstItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstAttribute="width" constant="332" priority="971" id="View-96a13344-3268-4956-8996-e1df8f5157ac-width" userLabel="Cell-width"/>
+            <constraint firstItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstAttribute="height" constant="73" priority="972" id="View-96a13344-3268-4956-8996-e1df8f5157ac-height" userLabel="Cell-height"/>
+            <constraint secondAttribute="top" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" firstItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstAttribute="top" constant="4.5" priority="973" id="View-96a13344-3268-4956-8996-e1df8f5157ac-top" userLabel="Cell-top"/>
+            <constraint secondAttribute="left" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" firstItem="View-96a13344-3268-4956-8996-e1df8f5157ac" firstAttribute="left" constant="0" priority="974" id="View-96a13344-3268-4956-8996-e1df8f5157ac-left" userLabel="Cell-left"/>
         </constraints>
                         </tableViewCellContentView>
                         <constraints>
-                            <constraint firstItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" firstAttribute="left" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Cell" secondAttribute="left" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-ContentView-left" userLabel="ContentView-Left"/>
-                            <constraint firstItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" firstAttribute="top" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Cell" secondAttribute="top" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-ContentView-top" userLabel="ContentView-Top"/>
-                            <constraint firstAttribute="bottom" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" secondAttribute="bottom" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-ContentView-bottom" userLabel="ContentView-Bottom"/>
-                            <constraint firstAttribute="right" secondItem="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da" secondAttribute="right" id="Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-ContentView-right" userLabel="ContentView-Right"/>
+                            <constraint firstItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" firstAttribute="left" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Cell" secondAttribute="left" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-ContentView-left" userLabel="ContentView-Left"/>
+                            <constraint firstItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" firstAttribute="top" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Cell" secondAttribute="top" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-ContentView-top" userLabel="ContentView-Top"/>
+                            <constraint firstAttribute="bottom" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" secondAttribute="bottom" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-ContentView-bottom" userLabel="ContentView-Bottom"/>
+                            <constraint firstAttribute="right" secondItem="Cell-0161bef1-982c-4d6f-b553-dd834de608a8" secondAttribute="right" id="Cell-0161bef1-982c-4d6f-b553-dd834de608a8-ContentView-right" userLabel="ContentView-Right"/>
                         </constraints>
                                 <connections>
-                                    <outlet property="tableCellCellCell" destination="View-af4632d9-074e-43c9-b31d-4c3fdd54b590" id="tableCellCellCell-Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Prop"/>
+                                    <outlet property="tableCellCellCell" destination="View-96a13344-3268-4956-8996-e1df8f5157ac" id="tableCellCellCell-Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Prop"/>
         
-                                    <outlet property="tableCellCellCellCombinedShape" destination="View-683cc2a6-b2a2-40c5-8b9d-68fed13e6ada" id="tableCellCellCellCombinedShape-Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Prop"/>
+                                    <outlet property="tableCellCellCellCombinedShape" destination="View-3cad9727-5fb7-435b-8c75-9b63cfec647a" id="tableCellCellCellCombinedShape-Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Prop"/>
         
-                                    <outlet property="tableCellCellCellLabelWorkWithStripe" destination="Label-767b3b61-6fd8-4805-868f-210e9669fdc8" id="tableCellCellCellLabelWorkWithStripe-Cell-03681a59-5af9-4bb7-9a29-8c15ff7544da-Prop"/>
+                                    <outlet property="tableCellCellCellLabelWorkWithStripe" destination="Label-d61c1da0-0ecb-4296-b9b3-552b0ceaa53e" id="tableCellCellCellLabelWorkWithStripe-Cell-0161bef1-982c-4d6f-b553-dd834de608a8-Prop"/>
         
                                 </connections>
 </tableViewCell>
         </prototypes>
     </tableView>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" userLabel="Header"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-b19a3b32-ea21-45d5-8858-29508bbd616b" userLabel="Header"  >
         <rect key="frame" x="-1" y="-1" width="377" height="83"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
                                 <connections>
                                 </connections>
         <subviews>
-    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-26685d85-1405-4aff-a4f9-0723c175c266" userLabel="Rectangle 4"  >
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-a342a96d-a3e4-4273-8109-f2154ff96fee" userLabel="Rectangle 4"  >
         <rect key="frame" x="1" y="1" width="375" height="81"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -774,7 +774,7 @@
         <constraints>
         </constraints>
     </view>
-    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" userLabel="Label: Designer News"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
+    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" userLabel="Label: Designer News"  customClass="ANLabel" textAlignment="left" lineBreakMode="wordWrap" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" >
         <string key="text">Designer News</string>
         <rect key="frame" x="101" y="31" width="161.7" height="24"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
@@ -797,7 +797,7 @@
         <constraints>
         </constraints>
     </label>
-    <imageView image="table screen 4crc3rlf  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" userLabel="4CRC3rLF"   >
+    <imageView image="table screen 4crc3rlf  1" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" userLabel="4CRC3rLF"   >
         <rect key="frame" x="44" y="20" width="43" height="43"/>
         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
         <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
@@ -808,34 +808,34 @@
     </imageView>
         </subviews>
         <constraints>
-            <constraint firstItem="View-26685d85-1405-4aff-a4f9-0723c175c266" firstAttribute="width" constant="375" priority="971" id="View-26685d85-1405-4aff-a4f9-0723c175c266-width" userLabel="Rectangle 4-width"/>
-            <constraint firstItem="View-26685d85-1405-4aff-a4f9-0723c175c266" firstAttribute="height" constant="81" priority="972" id="View-26685d85-1405-4aff-a4f9-0723c175c266-height" userLabel="Rectangle 4-height"/>
-            <constraint secondAttribute="top" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="View-26685d85-1405-4aff-a4f9-0723c175c266" firstAttribute="top" constant="1" priority="973" id="View-26685d85-1405-4aff-a4f9-0723c175c266-top" userLabel="Rectangle 4-top"/>
-            <constraint secondAttribute="left" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="View-26685d85-1405-4aff-a4f9-0723c175c266" firstAttribute="left" constant="1" priority="974" id="View-26685d85-1405-4aff-a4f9-0723c175c266-left" userLabel="Rectangle 4-left"/>
-            <constraint firstItem="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" firstAttribute="width" constant="161.7" priority="971" id="Label-d3d09544-339b-460f-9f06-39ee51c32dd6-width" userLabel="Label: Designer News-width"/>
-            <constraint firstItem="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" firstAttribute="height" constant="24" priority="972" id="Label-d3d09544-339b-460f-9f06-39ee51c32dd6-height" userLabel="Label: Designer News-height"/>
-            <constraint secondAttribute="top" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" firstAttribute="top" constant="31" priority="973" id="Label-d3d09544-339b-460f-9f06-39ee51c32dd6-top" userLabel="Label: Designer News-top"/>
-            <constraint secondAttribute="left" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" firstAttribute="left" constant="101" priority="974" id="Label-d3d09544-339b-460f-9f06-39ee51c32dd6-left" userLabel="Label: Designer News-left"/>
-            <constraint firstItem="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" firstAttribute="width" constant="43" priority="971" id="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317-width" userLabel="4CRC3rLF-width"/>
-            <constraint firstItem="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" firstAttribute="height" constant="43" priority="972" id="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317-height" userLabel="4CRC3rLF-height"/>
-            <constraint secondAttribute="top" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" firstAttribute="top" constant="20" priority="973" id="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317-top" userLabel="4CRC3rLF-top"/>
-            <constraint secondAttribute="left" secondItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstItem="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" firstAttribute="left" constant="44" priority="974" id="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317-left" userLabel="4CRC3rLF-left"/>
+            <constraint firstItem="View-a342a96d-a3e4-4273-8109-f2154ff96fee" firstAttribute="width" constant="375" priority="971" id="View-a342a96d-a3e4-4273-8109-f2154ff96fee-width" userLabel="Rectangle 4-width"/>
+            <constraint firstItem="View-a342a96d-a3e4-4273-8109-f2154ff96fee" firstAttribute="height" constant="81" priority="972" id="View-a342a96d-a3e4-4273-8109-f2154ff96fee-height" userLabel="Rectangle 4-height"/>
+            <constraint secondAttribute="top" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="View-a342a96d-a3e4-4273-8109-f2154ff96fee" firstAttribute="top" constant="1" priority="973" id="View-a342a96d-a3e4-4273-8109-f2154ff96fee-top" userLabel="Rectangle 4-top"/>
+            <constraint secondAttribute="left" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="View-a342a96d-a3e4-4273-8109-f2154ff96fee" firstAttribute="left" constant="1" priority="974" id="View-a342a96d-a3e4-4273-8109-f2154ff96fee-left" userLabel="Rectangle 4-left"/>
+            <constraint firstItem="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" firstAttribute="width" constant="161.7" priority="971" id="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a-width" userLabel="Label: Designer News-width"/>
+            <constraint firstItem="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" firstAttribute="height" constant="24" priority="972" id="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a-height" userLabel="Label: Designer News-height"/>
+            <constraint secondAttribute="top" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" firstAttribute="top" constant="31" priority="973" id="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a-top" userLabel="Label: Designer News-top"/>
+            <constraint secondAttribute="left" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" firstAttribute="left" constant="101" priority="974" id="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a-left" userLabel="Label: Designer News-left"/>
+            <constraint firstItem="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" firstAttribute="width" constant="43" priority="971" id="image-6d2fd457-ff77-4504-b23b-0f8b147530e9-width" userLabel="4CRC3rLF-width"/>
+            <constraint firstItem="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" firstAttribute="height" constant="43" priority="972" id="image-6d2fd457-ff77-4504-b23b-0f8b147530e9-height" userLabel="4CRC3rLF-height"/>
+            <constraint secondAttribute="top" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" firstAttribute="top" constant="20" priority="973" id="image-6d2fd457-ff77-4504-b23b-0f8b147530e9-top" userLabel="4CRC3rLF-top"/>
+            <constraint secondAttribute="left" secondItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstItem="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" firstAttribute="left" constant="44" priority="974" id="image-6d2fd457-ff77-4504-b23b-0f8b147530e9-left" userLabel="4CRC3rLF-left"/>
         </constraints>
     </view>
         </subviews>
         <constraints>
-            <constraint firstItem="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" firstAttribute="width" constant="375" priority="971" id="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec-width" userLabel="Rectangle-width"/>
-            <constraint firstItem="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" firstAttribute="height" constant="667" priority="972" id="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec-height" userLabel="Rectangle-height"/>
-            <constraint secondAttribute="top" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" firstAttribute="top" constant="0" priority="973" id="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec-top" userLabel="Rectangle-top"/>
-            <constraint secondAttribute="left" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" firstAttribute="left" constant="0" priority="974" id="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec-left" userLabel="Rectangle-left"/>
-            <constraint firstItem="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" firstAttribute="width" constant="333" priority="971" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-width" userLabel="Table-width"/>
-            <constraint firstItem="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" firstAttribute="height" constant="572" priority="972" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-height" userLabel="Table-height"/>
-            <constraint secondAttribute="top" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" firstAttribute="top" constant="95" priority="973" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-top" userLabel="Table-top"/>
-            <constraint secondAttribute="left" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" firstAttribute="left" constant="21" priority="974" id="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f-left" userLabel="Table-left"/>
-            <constraint firstItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstAttribute="width" constant="377" priority="971" id="View-a93f110b-b19b-402a-a8fd-f485a0f76f67-width" userLabel="Header-width"/>
-            <constraint firstItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstAttribute="height" constant="83" priority="972" id="View-a93f110b-b19b-402a-a8fd-f485a0f76f67-height" userLabel="Header-height"/>
-            <constraint secondAttribute="top" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstAttribute="top" constant="-1" priority="973" id="View-a93f110b-b19b-402a-a8fd-f485a0f76f67-top" userLabel="Header-top"/>
-            <constraint secondAttribute="left" secondItem="screen-2425659d-19cf-4678-a1ae-2edac41edfca" firstItem="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" firstAttribute="left" constant="-1" priority="974" id="View-a93f110b-b19b-402a-a8fd-f485a0f76f67-left" userLabel="Header-left"/>
+            <constraint firstItem="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" firstAttribute="width" constant="375" priority="971" id="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c-width" userLabel="Rectangle-width"/>
+            <constraint firstItem="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" firstAttribute="height" constant="667" priority="972" id="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c-height" userLabel="Rectangle-height"/>
+            <constraint secondAttribute="top" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" firstAttribute="top" constant="0" priority="973" id="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c-top" userLabel="Rectangle-top"/>
+            <constraint secondAttribute="left" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" firstAttribute="left" constant="0" priority="974" id="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c-left" userLabel="Rectangle-left"/>
+            <constraint firstItem="Table-b4de6187-153f-4105-adef-41c0a6444af0" firstAttribute="width" constant="333" priority="971" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-width" userLabel="Table-width"/>
+            <constraint firstItem="Table-b4de6187-153f-4105-adef-41c0a6444af0" firstAttribute="height" constant="572" priority="972" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-height" userLabel="Table-height"/>
+            <constraint secondAttribute="top" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="Table-b4de6187-153f-4105-adef-41c0a6444af0" firstAttribute="top" constant="95" priority="973" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-top" userLabel="Table-top"/>
+            <constraint secondAttribute="left" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="Table-b4de6187-153f-4105-adef-41c0a6444af0" firstAttribute="left" constant="21" priority="974" id="Table-b4de6187-153f-4105-adef-41c0a6444af0-left" userLabel="Table-left"/>
+            <constraint firstItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstAttribute="width" constant="377" priority="971" id="View-b19a3b32-ea21-45d5-8858-29508bbd616b-width" userLabel="Header-width"/>
+            <constraint firstItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstAttribute="height" constant="83" priority="972" id="View-b19a3b32-ea21-45d5-8858-29508bbd616b-height" userLabel="Header-height"/>
+            <constraint secondAttribute="top" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstAttribute="top" constant="-1" priority="973" id="View-b19a3b32-ea21-45d5-8858-29508bbd616b-top" userLabel="Header-top"/>
+            <constraint secondAttribute="left" secondItem="screen-381959f9-a256-4814-87bc-4ca1f25cc927" firstItem="View-b19a3b32-ea21-45d5-8858-29508bbd616b" firstAttribute="left" constant="-1" priority="974" id="View-b19a3b32-ea21-45d5-8858-29508bbd616b-left" userLabel="Header-left"/>
         </constraints>
                                 <connections>
                                 </connections>
@@ -848,21 +848,21 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
-                        <outlet property="rectangle" destination="View-69686985-a3fc-4a5a-8eef-1d7f50c013ec" id="rectangle-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
-                        <outlet property="table" destination="Table-c80f58d4-eb6a-4895-90c2-4fc41e295d6f" id="table-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
+                        <outlet property="rectangle" destination="View-f7e1eeac-5c5f-4e5c-a888-6e6aa043ca2c" id="rectangle-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
+                        <outlet property="table" destination="Table-b4de6187-153f-4105-adef-41c0a6444af0" id="table-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
 
 
 
 
 
 
-                        <outlet property="header" destination="View-a93f110b-b19b-402a-a8fd-f485a0f76f67" id="header-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
-                        <outlet property="headerRectangle4" destination="View-26685d85-1405-4aff-a4f9-0723c175c266" id="headerRectangle4-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
-                        <outlet property="headerLabelDesignerNews" destination="Label-d3d09544-339b-460f-9f06-39ee51c32dd6" id="headerLabelDesignerNews-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
-                        <outlet property="header4CRC3rLF" destination="image-c1851dac-e45b-4d97-910d-4a2fe7fb8317" id="header4CRC3rLF-screen-2425659d-19cf-4678-a1ae-2edac41edfca-Prop"/>
+                        <outlet property="header" destination="View-b19a3b32-ea21-45d5-8858-29508bbd616b" id="header-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
+                        <outlet property="headerRectangle4" destination="View-a342a96d-a3e4-4273-8109-f2154ff96fee" id="headerRectangle4-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
+                        <outlet property="headerLabelDesignerNews" destination="Label-665fb3fa-3c9b-4820-9c69-c0f9ca176b1a" id="headerLabelDesignerNews-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
+                        <outlet property="header4CRC3rLF" destination="image-6d2fd457-ff77-4504-b23b-0f8b147530e9" id="header4CRC3rLF-screen-381959f9-a256-4814-87bc-4ca1f25cc927-Prop"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-2425659d-19cf-4678-a1ae-2edac41edfca-FR" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-381959f9-a256-4814-87bc-4ca1f25cc927-FR" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0" y="842"/>
         </scene>
