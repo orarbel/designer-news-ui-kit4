@@ -19,7 +19,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (tableView == self.table) {
-        return 4; // Cell per type, acting like a static table
+        return 8; // Cell per type, acting like a static table
     }
     return 0;
 }
@@ -43,7 +43,27 @@
                 return cell;
              }
             case 3: {
-                APCellCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellCell"];
+                APCell4 *cell = [tableView dequeueReusableCellWithIdentifier:@"cell4"];
+                cell.delegate = self;
+                return cell;
+             }
+            case 4: {
+                APCell3 *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3"];
+                cell.delegate = self;
+                return cell;
+             }
+            case 5: {
+                APCell2 *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2"];
+                cell.delegate = self;
+                return cell;
+             }
+            case 6: {
+                APCell1 *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1"];
+                cell.delegate = self;
+                return cell;
+             }
+            case 7: {
+                APCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
                 cell.delegate = self;
                 return cell;
              }
@@ -64,6 +84,14 @@
             case 2:
                 return 82.0;
             case 3:
+                return 82.0;
+            case 4:
+                return 82.0;
+            case 5:
+                return 82.0;
+            case 6:
+                return 82.0;
+            case 7:
                 return 78.0;
             default:
                 return 0;

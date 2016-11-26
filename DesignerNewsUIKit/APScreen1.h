@@ -12,7 +12,11 @@
 #import "APCell7.h"
 #import "APCell6.h"
 #import "APCell5.h"
-#import "APCellCell.h"
+#import "APCell4.h"
+#import "APCell3.h"
+#import "APCell2.h"
+#import "APCell1.h"
+#import "APCell.h"
 #import "ANLabel.h"
 
 @interface APScreen1 : ANViewController <UITableViewDataSource, UITableViewDelegate> 
