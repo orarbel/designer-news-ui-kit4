@@ -18,6 +18,7 @@
 @property (weak, nonatomic, nullable) IBOutlet UILabel *headerLabelTrustMeImADesigner;
 @property (weak, nonatomic, nullable) IBOutlet UIImageView *header4CRC3rLF;
 @property (weak, nonatomic, nullable) IBOutlet UILabel *label;
+@property (weak, nonatomic, nullable) IBOutlet UILabel *label1;
 
 
 
